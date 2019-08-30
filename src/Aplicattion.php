@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controllers;
+namespace Maiconfss\Router;
 
-class Aplicattion
+class Router
 {   
     public $router;
     public $route;
