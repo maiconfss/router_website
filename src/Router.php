@@ -69,9 +69,7 @@ class Router
     {   
         if(isset($this->path)){
             if(file_exists("App/View/pages/{$this->path['handler']}.php")){
-                include "App/View/templates/header.php";
                 include "App/View/pages/{$this->path['handler']}.php";
-                include "App/View/templates/footer.php";
             }else{
                 include "App/View/pages/404.php";
                 echo 'View não encontrada';
